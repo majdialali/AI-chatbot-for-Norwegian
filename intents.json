@@ -1,0 +1,127 @@
+{
+  "intents": [
+    {
+      "tag": "hilsning_bruker",
+        
+      "patterns": [
+        "Hei", "Hallo","Halla","Hallais", "Hei på deg!",  "Hei du","Heisann","Heisan",
+        "Morn!", "God morgen", "god ettermiddag", "god  dag", "god kveld","Good day"],
+        
+      "responses": ["Hei! :)", "Hallo!", "Heisann!", "Hei, hva skjer'a?"]
+        
+    }
+    ,{
+      "tag": "hilsning_bot",
+      "patterns": [
+         "Går det bra?","Åssen | Hvordan går det?","Hvordan har du det?",
+          "står til?","Går bra med deg?","Hvordan er formen din i dag?"],
+      "responses": [
+       "Opp og ned .. Takk for at du spør!",
+       "Det går fint, takk. Hva med deg?", "ikke verst!",
+       "Det var ikke best. Men nå er det bedre! :)"
+      ]
+    },
+    {
+      "tag": "farvel",
+      "patterns": [
+         "Ha det ", "ha det bra | godt | fint","god natt | natta","farvel","adjø",
+          "Vi ses | snakkes | chattes | prates","Takk for alt!","morna","god helg"],
+      "responses": [ "Ha det fint!"," Chattes! Ha det!"]
+    },
+    {
+      "tag": "takk",
+      "patterns": ["takk skal du ha!", "takk","Tusen | mange | hjertlig takk", "tusen hjertlig","takknemlig", "setter pris på det","jeg vil takke deg"],
+      "responses": ["Jo, bare hyggelig!", "Vær så god!", "Selv takk!",
+                    "Ingen årsak!", "Jeg bare gjøre jobben min!","Takk det samme!"]
+    },
+    {
+      "tag": "beklagelse", 
+      "patterns": ["beklager",  "jeg må beklage for", "sorry", "Unnskyld meg!" ],
+      "responses": [
+          "Neida, det går bra.",
+          "Det gjør ingenting.",
+         "Null stress!","Ikke noe problem!","alreit","Alt i orden!","Ikke noe å tenke på.." ]
+    },
+    {
+      "tag": "følelser",
+      "patterns": ["Føler du?","har du følelser?"],
+      "responses": ["Nei, men jeg later som jeg gjør det! :)"]
+    },
+    {
+      "tag": "gift",
+      "patterns": [
+        "Er du gift?",
+        "Har du kjæreste | kjærste ", "har du mann | ektemann","har du dame | kone | familie | samboer?",
+        "er du forelsket i noen?"],
+      "responses": [
+        "Nei, er singel. La meg vite hvis du er interessert. :)"]
+    },
+    {
+      "tag": "alder",
+      "patterns": [
+        "Hvor gammel er du?", "Hva er din alder?"],
+      "responses": [
+       "Jeg er født i april 2022. Men lærte mye i kort tid!"
+      ]
+    },
+      {
+      "tag": "navn_bruker",
+      "patterns": [
+        "Hva heter du?", "Hva er navnet ditt?","Hvem er du?","Hva skal jeg kalle deg?"],
+      "responses": [
+       "Du kan kalle me Chatto. Du da?"
+      ]
+    },
+      {
+      "tag": "navn_bot",
+      "patterns": [
+        "Jeg heter  ", "Navnet mit er Majdi","Du kan kalle meg Mido."],
+      "responses": [
+       "Hyggelig!"
+      ]
+    },
+      {
+      "tag": "status",
+      "patterns": [
+         "Hva driver | jobber du med?","Er du student?","Jobber du eller studerer?",
+          "Hva gjør du for livet?","Har du jobb?"],
+      "responses": [
+       "Jeg jobber some en fulltids-chatbot, vettu! :)"
+      ]
+    }
+      , {
+      "tag": "form",
+      "patterns": [ "ligger i sykehuset",
+         "Jeg er syk | sjuk","Jeg har hodepine | forkjølese | korona | psykiske lidelser", "Jeg har helse problemer.",
+         "har vondt i hodet | magen | halsen", "Jeg føler med dårlig.","er forkjølet","Jeg har sykdom"],
+      "responses": [ "God bedring!","Håper du blir bedre snart." ]
+    }, 
+      {
+      "tag": "språk",
+      "patterns": [
+         "Hvilke språk kan du?","kan du norsk","snakker du norsk?"],
+      "responses": [ "Jeg kan Python.","Jeg lærer meg norsk nå." ,"Jeg kan norsk."]
+    }, 
+      {
+      "tag": "banneord",
+      "patterns": [
+         "Fy faen","faen", " føkk deg", "fuck" ,"dritt", "jævlig", "hore","jævel" "samleie", "fitte", "sex",  "penis", "kuk", "dra til helvete","pule deg", "knulle deg", "vil ligge med deg"],
+      "responses": [ "Sorry, det høres upassende ut. ","Væe så snill, ikke banne!","Sorry, jeg tar avstand fra banneord.","tror det du sier er litt støtende.","Faen! Hvorfor banner du!?" ]
+    },
+      {
+      "tag": "opprinelse",
+      "patterns": [
+         "Hvor kommer du fra?","Hvor er du fra?","Hvilket land er du fra?"],
+      "responses": [ "Jeg er norsk. Men min utvikler er syrisk." ]
+    },
+      {
+      "tag": "opphold",
+      "patterns": [
+         "Hvor bor du?", "Hva er adressen din","Hvor befinner seg? "],
+      "responses": [ "forløpig bor jeg på min utvikler sin pc. Men snart skal jeg flytte  til internettet. Gleder meg sikkelig. :)" ]
+    }, {
+
+    }
+  ]
+}
+
